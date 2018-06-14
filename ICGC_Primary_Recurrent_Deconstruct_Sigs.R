@@ -274,8 +274,6 @@ ref = "ref", alt = "alt", bsg = NULL)
 ##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
 solving row 331158: 'allow.nonnarrowing' is FALSE and the supplied start (64681180) is > refwidth + 1
                   
-
-
 test_38 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_38.csv")
 Test_38.1 <- as.data.frame(test_38)
 mut.to.sigs.input(mut.ref = Test_38.1, sample.id = "Sample", chr = "chr", pos = "pos",
@@ -349,6 +347,140 @@ ref = "ref", alt = "alt", bsg = NULL)
 ##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
 solving row 333554: 'allow.nonnarrowing' is FALSE and the supplied start (76174502) is > refwidth + 1
 
+test_50 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_50.csv")
+Test_50.1 <- as.data.frame(test_50)
+mut.to.sigs.input(mut.ref = Test_50.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333557: 'allow.nonnarrowing' is FALSE and the supplied start (80166890) is > refwidth + 1
+test_51 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_51.csv")
+Test_51.1 <- as.data.frame(test_51)
+mut.to.sigs.input(mut.ref = Test_51.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333568: 'allow.nonnarrowing' is FALSE and the supplied start (87465628) is > refwidth + 1
+test_52 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_52.csv")
+Test_52.1 <- as.data.frame(test_52)
+mut.to.sigs.input(mut.ref = Test_52.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333703: 'allow.nonnarrowing' is FALSE and the supplied start (102020214) is > refwidth + 1
+test_53 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_53.csv")
+Test_53.1 <- as.data.frame(test_53)
+mut.to.sigs.input(mut.ref = Test_53.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333705: 'allow.nonnarrowing' is FALSE and the supplied start (106175136) is > refwidth + 1
+test_54 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_54.csv")
+Test_54.1 <- as.data.frame(test_54)
+mut.to.sigs.input(mut.ref = Test_54.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333720: 'allow.nonnarrowing' is FALSE and the supplied start (121528407) is > refwidth + 1
+test_55 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_55.csv")
+Test_55.1 <- as.data.frame(test_55)
+mut.to.sigs.input(mut.ref = Test_55.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333721: 'allow.nonnarrowing' is FALSE and the supplied start (122250218) is > refwidth + 1
+test_56 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_56.csv")
+Test_56.1 <- as.data.frame(test_56)
+mut.to.sigs.input(mut.ref = Test_56.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333723: 'allow.nonnarrowing' is FALSE and the supplied start (135522760) is > refwidth + 1
+test_57 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_57.csv")
+Test_57.1 <- as.data.frame(test_57)
+mut.to.sigs.input(mut.ref = Test_57.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333728: 'allow.nonnarrowing' is FALSE and the supplied start (142565595) is > refwidth + 1
+test_58 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_58.csv")
+Test_58.1 <- as.data.frame(test_58)
+mut.to.sigs.input(mut.ref = Test_58.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333728: 'allow.nonnarrowing' is FALSE and the supplied start (142574889) is > refwidth + 1
+test_59 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_59.csv")
+Test_59.1 <- as.data.frame(test_59)
+mut.to.sigs.input(mut.ref = Test_59.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333728: 'allow.nonnarrowing' is FALSE and the supplied start (142576626) is > refwidth + 1
+test_60 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_60.csv")
+Test_60.1 <- as.data.frame(test_60)
+mut.to.sigs.input(mut.ref = Test_60.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333728: 'allow.nonnarrowing' is FALSE and the supplied start (142600388) is > refwidth + 1
+test_61 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_61.csv")
+Test_61.1 <- as.data.frame(test_61)
+mut.to.sigs.input(mut.ref = Test_61.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333728: 'allow.nonnarrowing' is FALSE and the supplied start (142713487) is > refwidth + 1
+test_63 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_63.csv")
+Test_63.1 <- as.data.frame(test_63)
+mut.to.sigs.input(mut.ref = Test_63.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333740: 'allow.nonnarrowing' is FALSE and the supplied start (153509291) is > refwidth + 1
+test_64 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_64.csv")
+Test_64.1 <- as.data.frame(test_64)
+mut.to.sigs.input(mut.ref = Test_64.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+Test_64.1 <- as.data.frame(test_64)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333742: 'allow.nonnarrowing' is FALSE and the supplied start (159102601) is > refwidth + 1
+> Test_64.1 <- as.data.frame(test_64)
+test_65 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_65.csv")
+Test_65.1 <- as.data.frame(test_65)
+mut.to.sigs.input(mut.ref = Test_65.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333743: 'allow.nonnarrowing' is FALSE and the supplied start (164434061) is > refwidth + 1
+test_66 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_66.csv")
+Test_66.1 <- as.data.frame(test_66)
+mut.to.sigs.input(mut.ref = Test_66.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333799: 'allow.nonnarrowing' is FALSE and the supplied start (179614357) is > refwidth + 1
+test_67 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_67.csv")
+Test_67.1 <- as.data.frame(test_67)
+mut.to.sigs.input(mut.ref = Test_67.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 333987: 'allow.nonnarrowing' is FALSE and the supplied start (248334201) is > refwidth + 1
+test_68 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_68.csv")
+Test_68.1 <- as.data.frame(test_68)
+mut.to.sigs.input(mut.ref = Test_68.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 334846: 'allow.nonnarrowing' is FALSE and the supplied start (56378749) is > refwidth + 1
+test_69 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_69.csv")
+Test_69.1 <- as.data.frame(test_69)
+mut.to.sigs.input(mut.ref = Test_69.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 334847: 'allow.nonnarrowing' is FALSE and the supplied start (61784065) is > refwidth + 1
+test_70 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_70.csv")
+Test_70.1 <- as.data.frame(test_70)
+mut.to.sigs.input(mut.ref = Test_70.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 334854: 'allow.nonnarrowing' is FALSE and the supplied start (66846732) is > refwidth + 1
+test_71 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_71.csv")
+Test_71.1 <- as.data.frame(test_71)
+mut.to.sigs.input(mut.ref = Test_71.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 334854: 'allow.nonnarrowing' is FALSE and the supplied start (67002201) is > refwidth + 1
+test_72 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_72.csv")
+Test_72.1 <- as.data.frame(test_72)
+mut.to.sigs.input(mut.ref = Test_72.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 334857: 'allow.nonnarrowing' is FALSE and the supplied start (69932587) is > refwidth + 1
 
 
                   
