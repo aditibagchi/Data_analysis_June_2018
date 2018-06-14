@@ -529,7 +529,27 @@ In mut.to.sigs.input(mut.ref = Test_77.1, sample.id = "Sample",  :
                      MB-REC-35:chr9:129916:G:T, MB-REC-28:chr9:131570:C:T, MB-REC-22:chr9:134307:T:C, MB-REC-44:chr9:134619:G:T, 
                      MB-REC-12:chr9:134697:G:T, MB-REC-12:chr9:1367 [... truncated]              
                 
-              
+## I removed these unmatched contexts from the data file 
+test_78 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_78.csv")
+Test_78.1 <- as.data.frame(test_78)
+Sigs.input_1 <-
+mut.to.sigs.input(mut.ref = Test_78.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+View(Sigs.input_1)
+write.csv(Sigs.input_1, "Primary_recurrent_ICGC_DF_96_1.csv")
+
+##Warning message:
+In mut.to.sigs.input(mut.ref = Test_78.1, sample.id = "Sample",  :
+                       Check ref bases -- not all match context:
+                       MB-REC-34:chr7:33523972:T:G, MB-REC-27:chr9:129192:T:G, MB-REC-12:chr9:136728:G:A, 
+                     MB-REC-04:chr9:136743:G:T, MB-REC-15:chr9:137012:A:G, MB-REC-44:chr9:137076:G:T, MB-REC-32:chr9:137516:A:C,
+                     MB-REC-28:chr9:138406:G:C, MB-REC-33:chr9:138419:T:C, MB-REC-12:chr9:141452:C:A, MB-REC-21:chr9:142349:T:G,
+                     MB-REC-39:chr9:148844:C:T, MB-REC-22:chr9:150530:T:C, MB-REC-46:chr9:154195:C:G, MB-REC-14:chr9:154609:T:C,
+                     MB-REC-43:chr9:154970:G:A, MB-REC-32:chr9:158530:A:G, MB-REC-35:chr9:159706:T:G, MB-REC-26:chr9:159875:G:A,
+                     MB-REC-26:chr9:160986:A:G, MB-REC-26:chr9:164351:G:A, MB-REC-08:chr9:164630:G:T, MB-REC-26:chr9:165664:G:T,
+                     MB-REC-07:chr9:166067:A:T, MB-REC-04:chr9:169674:A:T, MB-REC-28:chr22:19476105:C:T, MB-REC-33:chr22:19476670:C:T, 
+                     MB-REC-47:chr22:19489632:T:C, MB-REC-24:chr5:24604806:G:A, MB-REC-12:chr5:24605659:G:A, MB-REC-18:chr5:24606528:A:G, 
+                     MB-REC-39:chr5:24606556:T:A, MB-REC-42:chr5:24608967:C:G, MB-REC-22:chr5:24610308:G:A, MB-REC-43:chr5: [... truncated]
                 
                 
                 
