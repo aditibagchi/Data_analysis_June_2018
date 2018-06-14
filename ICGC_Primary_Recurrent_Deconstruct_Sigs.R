@@ -551,5 +551,6 @@ In mut.to.sigs.input(mut.ref = Test_78.1, sample.id = "Sample",  :
                      MB-REC-47:chr22:19489632:T:C, MB-REC-24:chr5:24604806:G:A, MB-REC-12:chr5:24605659:G:A, MB-REC-18:chr5:24606528:A:G, 
                      MB-REC-39:chr5:24606556:T:A, MB-REC-42:chr5:24608967:C:G, MB-REC-22:chr5:24610308:G:A, MB-REC-43:chr5: [... truncated]
                 
-                
+##Not a lot of chnges were observed in the 96 context DF created. Will continue with Sigs_input for now. 
+##Will come back to this if there is a problem. 6/14/2018               
                 
