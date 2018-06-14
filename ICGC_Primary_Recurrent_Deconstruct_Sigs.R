@@ -346,7 +346,6 @@ mut.to.sigs.input(mut.ref = Test_49.1, sample.id = "Sample", chr = "chr", pos = 
 ref = "ref", alt = "alt", bsg = NULL)
 ##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
 solving row 333554: 'allow.nonnarrowing' is FALSE and the supplied start (76174502) is > refwidth + 1
-
 test_50 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_50.csv")
 Test_50.1 <- as.data.frame(test_50)
 mut.to.sigs.input(mut.ref = Test_50.1, sample.id = "Sample", chr = "chr", pos = "pos",
@@ -482,8 +481,53 @@ ref = "ref", alt = "alt", bsg = NULL)
 ##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
 solving row 334857: 'allow.nonnarrowing' is FALSE and the supplied start (69932587) is > refwidth + 1
 
+test_73 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_73.csv")
+Test_73.1 <- as.data.frame(test_73)
+mut.to.sigs.input(mut.ref = Test_73.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 334859: 'allow.nonnarrowing' is FALSE and the supplied start (71637701) is > refwidth + 1
+test_74 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_74.csv")
+Test_74.1 <- as.data.frame(test_74)
+mut.to.sigs.input(mut.ref = Test_74.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 334872: 'allow.nonnarrowing' is FALSE and the supplied start (92601735) is > refwidth + 1
+test_75 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_75.csv")
+Test_75.1 <- as.data.frame(test_75)
+mut.to.sigs.input(mut.ref = Test_75.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 334888: 'allow.nonnarrowing' is FALSE and the supplied start (96381587) is > refwidth + 1
+test_76 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_76.csv")
+Test_76.1 <- as.data.frame(test_76)
+mut.to.sigs.input(mut.ref = Test_76.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+##Error in .Call2("solve_user_SEW", refwidths, start, end, width, translate.negative.coord,  : 
+solving row 400959: 'allow.nonnarrowing' is FALSE and the supplied start (171660893) is > refwidth + 1
+test_77 <- read.csv("~/Desktop/Data_analysis_June _2018/Primary_recurrent_ICGC_77.csv")
+Test_77.1 <- as.data.frame(test_77)
+mut.to.sigs.input(mut.ref = Test_77.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+mut.to.sigs.input(mut.ref = Test_77.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+Sigs.input <- mut.to.sigs.input(mut.ref = Test_77.1, sample.id = "Sample", chr = "chr", pos = "pos",
+ref = "ref", alt = "alt", bsg = NULL)
+View(Sigs.input)
+write.csv(Sigs.input, "Primary_recurrent_ICGC_DF_96.csv")
 
-                  
+  ##     Warning message:
+In mut.to.sigs.input(mut.ref = Test_77.1, sample.id = "Sample",  :
+                       Check ref bases -- not all match context:
+                       MB-REC-19:chr2:69790663:T:A, MB-REC-44:chr22:19653496:A:G, MB-REC-15:chr22:19653537:A:C, MB-REC-33:chr22:19655897:T:A,
+                     MB-REC-11:chr22:19658606:A:T, MB-REC-39:chr22:19614740:T:A, MB-REC-40:chr7:20117508:A:G, MB-REC-47:chr17:37039:G:A, 
+                     MB-REC-44:chr17:38836:A:G, MB-REC-34:chr2:90291016:T:G, MB-REC-08:chr1:33518607:G:T, MB-REC-31:chr1:136414:G:T, 
+                     MB-REC-43:chr1:19226829:A:C, MB-REC-39:chr2:69969074:C:A, MB-REC-44:chr1:259162:T:G, MB-REC-15:chr1:264381:G:T, 
+                     MB-REC-44:chr10:24918813:C:A, MB-REC-04:chr1:16541327:A:G, MB-REC-15:chr7:69801455:G:T, MB-REC-34:chr7:33523972:T:G, 
+                     MB-REC-34:chr7:33523973:G:T, MB-REC-44:chr20:35234263:G:A, MB-REC-15:chr20:20232829:T:C, MB-REC-16:chr1:26520637:C:A, 
+                     MB-REC-26:chr9:121525:G:A, MB-REC-18:chr9:127748:A:C, MB-REC-27:chr9:129192:T:G, MB-REC-13:chr9:129866:C:T,
+                     MB-REC-35:chr9:129916:G:T, MB-REC-28:chr9:131570:C:T, MB-REC-22:chr9:134307:T:C, MB-REC-44:chr9:134619:G:T, 
+                     MB-REC-12:chr9:134697:G:T, MB-REC-12:chr9:1367 [... truncated]              
                 
               
                 
